@@ -1,0 +1,26 @@
+#piano {
+  display: flex;
+  justify-content: center;
+}
+
+.tecla {
+  border: 1px solid black;
+  height: 250px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.blanca {
+  background-color: white;
+  width: 60px;
+}
+
+.negra {
+  background-color: black;
+  width: 35px;
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: 1;
+  height: 130px;
+}
